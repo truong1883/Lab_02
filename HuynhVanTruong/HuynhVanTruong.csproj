@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DangKyThongTin.aspx" />
     <Content Include="DonHang.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangKyThongTin.aspx.cs">
+      <DependentUpon>DangKyThongTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKyThongTin.aspx.designer.cs">
+      <DependentUpon>DangKyThongTin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DonHang.aspx.cs">
       <DependentUpon>DonHang.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
